@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avanish Vadke - Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Avanish Vadke</h1>
+        <img
+          src="profile_photo.jpg"
+          alt="Profile Photo"
+          class="profile-photo"
+        />
+      </div>
+    </header>
+
+    <section id="summary">
+      <div class="container">
+        <h2>Summary</h2>
+        <p>
+          I aim to master web development and android development to a
+          proficient level, having already developed two Android projects (an
+          offline music app and a basic fitness app). I am eager to learn
+          emerging technologies such as AI and ML, and stay updated with current
+          technological advancements.
+        </p>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            Completed 10th standard at Smt. Sulochanadevi Singhania School (ICSE
+            board)
+          </li>
+          <li>Completed 12th standard (SSC board)</li>
+          <li>
+            Currently pursuing Computer Engineering (3rd year) at AP Shah
+            Institute of Technology, Mumbai University
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="work-experience">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <ul>
+          <li>
+            <strong>Intern</strong> at Google Android Development and AIML
+            <ul>
+              <li>Completed virtual internship from AICTE</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Intern</strong> at AWS Data Engineering
+            <ul>
+              <li>Completed virtual internship</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>Proficient in Java and Python</li>
+          <li>
+            Experience with Android development using Kotlin/Java + XML and
+            basic Jetpack Compose
+          </li>
+          <li>Currently enrolled in Google Generative AI program</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <div class="container">
+        <h2>Certifications and Achievements</h2>
+        <ul>
+          <li>
+            <a href="https://g.dev/AvanishVadke" target="_blank"
+              >Google Profile</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="copyright">
+      <div class="container">
+        <p>&copy; 2024 Avanish Vadke. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener("scroll", function () {
+        var footer = document.querySelector("footer");
+        var isVisible =
+          window.innerHeight + window.scrollY >= document.body.offsetHeight;
+        if (isVisible) {
+          footer.classList.add("visible");
+        } else {
+          footer.classList.remove("visible");
+        }
+      });
+    </script>
+  </body>
+</html>
